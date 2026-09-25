@@ -4,6 +4,8 @@ This repository reconstructs [How I Created a fraud detection system on AWS](htt
 
 **Availability:** [AWS stopped accepting new Amazon Fraud Detector customers on November 7, 2025](https://docs.aws.amazon.com/frauddetector/latest/ug/frauddetector-availability-change.html). Existing customers can still use the service. This repo preserves the historical project and will only be executable in an eligible AWS account.
 
+The [original post images and notes](docs/project-notes.md) preserve the detector diagram, training evaluation and two console tests.
+
 ## Project configuration
 
 | Resource | Value documented in the article |
