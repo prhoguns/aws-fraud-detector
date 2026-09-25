@@ -1,0 +1,27 @@
+{
+  "entity_type": "customer",
+  "event_type": "registration",
+  "labels": ["fraud", "legit"],
+  "model": {
+    "name": "fraud_detection_model",
+    "type": "ONLINE_FRAUD_INSIGHTS",
+    "fraud_label": "fraud",
+    "legitimate_label": "legit"
+  },
+  "detector": {
+    "name": "detector-getting-started",
+    "outcomes": ["high_risk", "medium_risk", "low_risk"],
+    "documented_rule": {
+      "name": "auto-fraud-rule",
+      "expression": "$<fraud_detection_model>_insightscore >= 900",
+      "outcome": "high_risk"
+    }
+  },
+  "unavailable_from_source": [
+    "training CSV and S3 URI",
+    "event variable schema",
+    "medium- and low-risk thresholds",
+    "deployed model and detector version IDs",
+    "original console test events"
+  ]
+}
