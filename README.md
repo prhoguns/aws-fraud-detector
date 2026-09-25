@@ -1,5 +1,9 @@
 # Amazon Fraud Detector registration example
 
+**Original post:** [How I Created a fraud detection system on AWS](https://rhoguns.hashnode.dev/how-i-created-a-fraud-detection-system-on-aws)
+
+**Original article in this repo:** [Read the archived text and screenshots](docs/original-post.md)
+
 This repository reconstructs [How I Created a fraud detection system on AWS](https://rhoguns.hashnode.dev/how-i-created-a-fraud-detection-system-on-aws), published **March 15, 2023**. The original repository was lost; this runbook and configuration were recreated on September 24, 2026 from the article. They are not the original deployment or training data. Git commits use their actual creation date.
 
 **Availability:** [AWS stopped accepting new Amazon Fraud Detector customers on November 7, 2025](https://docs.aws.amazon.com/frauddetector/latest/ug/frauddetector-availability-change.html). Existing customers can still use the service. This repo preserves the historical project and will only be executable in an eligible AWS account.
